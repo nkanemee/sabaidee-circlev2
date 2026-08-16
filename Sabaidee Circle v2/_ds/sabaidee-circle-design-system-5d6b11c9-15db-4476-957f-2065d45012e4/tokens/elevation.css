@@ -1,0 +1,24 @@
+/* ============================================================
+   Sabaidee Circle — Elevation, shadow & decorative tokens
+   Tonal layering + soft, warm "saffron-tinted" shadows.
+   Cards carry a 1px gold accent on the top edge.
+   ============================================================ */
+
+:root {
+  /* Warm low-opacity shadows (saffron/ink tint, not neutral grey) */
+  --shadow-xs: 0 1px 2px rgba(27, 29, 14, 0.06);
+  --shadow-sm: 0 1px 3px rgba(27, 29, 14, 0.08), 0 1px 2px rgba(27, 29, 14, 0.04);
+  --shadow-md: 0 4px 12px rgba(86, 67, 52, 0.10), 0 2px 4px rgba(86, 67, 52, 0.06);
+  --shadow-lg: 0 12px 32px rgba(86, 67, 52, 0.14), 0 4px 8px rgba(86, 67, 52, 0.08);
+  --shadow-focus: 0 0 0 3px rgba(255, 140, 0, 0.30);
+
+  /* Gold top-edge accent used on cards (inset hairline) */
+  --edge-gold: inset 0 1px 0 0 var(--gold-400);
+
+  /* Motion — calm, grounded; no bounce */
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1); /* @kind other */
+  --ease-out: cubic-bezier(0.05, 0.7, 0.1, 1); /* @kind other */
+  --dur-fast: 120ms; /* @kind other */
+  --dur: 200ms; /* @kind other */
+  --dur-slow: 320ms; /* @kind other */
+}

@@ -1,0 +1,91 @@
+/* ============================================================
+   Sabaidee Circle — Color tokens
+   Warm, earthy, culturally grounded. Beige parchment surfaces,
+   saffron/orange energy, deep blue grounding, metallic gold accent.
+   Base palette + Material-3-style semantic roles.
+   ============================================================ */
+
+:root {
+  /* --- Brand base palette --- */
+  --saffron-900: #623200;   /* deepest roast */
+  --saffron-800: #6e3900;
+  --saffron-700: #904d00;   /* primary brand brown-saffron */
+  --saffron-500: #c46a00;
+  --saffron-400: #ff8c00;   /* energetic orange — key CTA */
+  --saffron-300: #ffb77d;
+  --saffron-200: #ffdcc3;
+  --saffron-100: #ffe9da;
+
+  --indigo-900: #000767;
+  --indigo-700: #27308a;
+  --indigo-600: #343d96;
+  --indigo-500: #4c56af;    /* secondary brand blue */
+  --indigo-300: #959efd;
+  --indigo-200: #bdc2ff;
+  --indigo-100: #e0e0ff;
+
+  --gold-700: #4d3c00;
+  --gold-600: #574500;
+  --gold-500: #735c00;      /* tertiary brand */
+  --gold-400: #caa62e;      /* metallic gold accent */
+  --gold-300: #e9c349;
+  --gold-200: #ffe088;
+
+  --ink-900: #1b1d0e;       /* primary text ink */
+  --ink-700: #303221;
+  --ink-600: #564334;       /* on-surface-variant, muted */
+  --ink-500: #897362;       /* outline */
+
+  --clay-300: #ddc1ae;      /* outline variant, hairlines */
+
+  /* --- Surfaces (warm parchment tiers) --- */
+  --surface: #fbfbe2;
+  --surface-dim: #dbdcc3;
+  --surface-bright: #fbfbe2;
+  --surface-lowest: #ffffff;
+  --surface-low: #f5f5dc;
+  --surface-container: #efefd7;
+  --surface-high: #eaead1;
+  --surface-highest: #e4e4cc;
+  --inverse-surface: #303221;
+  --inverse-on-surface: #f2f2d9;
+
+  --error-500: #ba1a1a;
+  --error-container: #ffdad6;
+  --on-error-container: #93000a;
+
+  /* --- Semantic roles --- */
+  --color-primary: var(--saffron-400);          /* orange CTA */
+  --color-primary-strong: var(--saffron-700);
+  --color-on-primary: #ffffff;
+  --color-primary-container: var(--saffron-200);
+  --color-on-primary-container: var(--saffron-900);
+
+  --color-secondary: var(--indigo-500);
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: var(--indigo-100);
+  --color-on-secondary-container: var(--indigo-700);
+
+  --color-accent: var(--gold-400);               /* gold detailing */
+  --color-on-accent: var(--gold-700);
+
+  --color-bg: var(--surface);
+  --color-surface: var(--surface);
+  --color-surface-card: var(--surface-lowest);
+  --color-surface-sunken: var(--surface-low);
+  --color-surface-raised: var(--surface-container);
+
+  --text-strong: var(--ink-900);
+  --text-body: var(--ink-900);
+  --text-muted: var(--ink-600);
+  --text-faint: var(--ink-500);
+  --text-on-dark: var(--inverse-on-surface);
+
+  --border-hairline: var(--clay-300);
+  --border-strong: var(--ink-500);
+  --color-gold-edge: var(--gold-400);            /* top-edge card accent */
+
+  --color-danger: var(--error-500);
+  --color-danger-container: var(--error-container);
+  --color-on-danger-container: var(--on-error-container);
+}

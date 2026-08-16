@@ -1,0 +1,28 @@
+/* ============================================================
+   Sabaidee Circle — Spacing, radius & layout tokens
+   8px vertical rhythm. "Circle" concept = room to breathe.
+   ============================================================ */
+
+:root {
+  --space-base: 4px;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 48px;
+  --space-2xl: 72px;
+  --space-3xl: 96px;
+
+  --gutter: 24px;
+  --margin-mobile: 16px;
+  --margin-desktop: 64px;
+  --max-width: 1200px;
+
+  /* Radius — softly rounded, circular for avatars/FAB */
+  --radius-sm: 0.25rem;   /* 4px */
+  --radius: 0.5rem;       /* 8px — default UI */
+  --radius-md: 0.75rem;   /* 12px */
+  --radius-lg: 1rem;      /* 16px */
+  --radius-xl: 1.5rem;    /* 24px — hero / community cards */
+  --radius-full: 9999px;
+}

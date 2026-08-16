@@ -1,0 +1,58 @@
+/* ============================================================
+   Sabaidee Circle — Typography tokens
+   Epilogue for display/headings, Inter for body & labels.
+   Generous line-heights; narrow measure for elder legibility.
+   ============================================================ */
+
+:root {
+  --font-display: 'Epilogue', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  /* Type scale (role → size / line-height / weight / tracking) */
+  --display-lg-size: 48px;
+  --display-lg-line: 56px;
+  --display-lg-weight: 700;
+  --display-lg-track: -0.02em;
+
+  --display-lg-mobile-size: 36px;
+  --display-lg-mobile-line: 42px;
+  --display-lg-mobile-track: -0.01em;
+
+  --headline-md-size: 32px;
+  --headline-md-line: 40px;
+  --headline-md-weight: 600;
+
+  --headline-sm-size: 24px;
+  --headline-sm-line: 32px;
+  --headline-sm-weight: 600;
+
+  --body-lg-size: 18px;
+  --body-lg-line: 28px;
+
+  --body-md-size: 16px;
+  --body-md-line: 24px;
+
+  --body-sm-size: 14px;
+  --body-sm-line: 20px;
+
+  --label-caps-size: 12px;
+  --label-caps-line: 16px;
+  --label-caps-weight: 600;
+  --label-caps-track: 0.08em;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --measure: 62ch; /* narrow comfortable reading width */
+}
+
+/* Optional helper classes for specimens / quick use */
+.t-display { font-family: var(--font-display); font-size: var(--display-lg-size); line-height: var(--display-lg-line); font-weight: var(--display-lg-weight); letter-spacing: var(--display-lg-track); color: var(--text-strong); }
+.t-headline { font-family: var(--font-display); font-size: var(--headline-md-size); line-height: var(--headline-md-line); font-weight: var(--headline-md-weight); color: var(--text-strong); }
+.t-subhead { font-family: var(--font-display); font-size: var(--headline-sm-size); line-height: var(--headline-sm-line); font-weight: var(--headline-sm-weight); color: var(--text-strong); }
+.t-body-lg { font-family: var(--font-body); font-size: var(--body-lg-size); line-height: var(--body-lg-line); color: var(--text-body); }
+.t-body { font-family: var(--font-body); font-size: var(--body-md-size); line-height: var(--body-md-line); color: var(--text-body); }
+.t-body-sm { font-family: var(--font-body); font-size: var(--body-sm-size); line-height: var(--body-sm-line); color: var(--text-muted); }
+.t-label { font-family: var(--font-body); font-size: var(--label-caps-size); line-height: var(--label-caps-line); font-weight: var(--label-caps-weight); letter-spacing: var(--label-caps-track); text-transform: uppercase; color: var(--text-muted); }

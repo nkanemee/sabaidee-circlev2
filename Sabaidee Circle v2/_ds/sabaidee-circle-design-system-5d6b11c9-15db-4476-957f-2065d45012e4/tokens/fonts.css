@@ -1,0 +1,9 @@
+/* ============================================================
+   Sabaidee Circle — Webfonts
+   Epilogue  → display / headings (editorial, contemporary craft)
+   Inter     → body / functional text (high legibility for all ages)
+   Served via Google Fonts. See readme.md "Fonts" note — swap to
+   self-hosted woff2 for production if offline use is required.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
